@@ -10,7 +10,7 @@ export function ResourcesList({ resources }: Props) {
   if (!resources.length) {
     return (
       <div className="flex items-center justify-center py-16 text-muted-foreground">
-        <span>No resources found.</span>
+        <span>No feeds found.</span>
       </div>
     )
   }

@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
 import {
-  BookmarkIcon,
   BracesIcon,
   CalendarIcon,
   ExternalLinkIcon,
@@ -42,7 +41,7 @@ import {
 const externalLinks = [
   {
     label: 'GitHub',
-    href: 'https://github.com/eckoln/nextdaily',
+    href: 'https://github.com/3p5ilon/feedster',
   },
   {
     label: 'RSS',
@@ -83,11 +82,11 @@ export async function Sidebar() {
         {/* Brand */}
         <PaneHeader className="justify-between">
           <Link
-            className="inline-flex items-center space-x-3 px-1 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring xl:p-0"
+            className="inline-flex items-center space-x-2 px-1 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring xl:p-0"
             href="/"
           >
-            <Rss size={20} />
-            <span>Feedster</span>
+            <Rss size={18} />
+            <h2 className="font-medium">Feedster</h2>
           </Link>
           <SidebarToggle />
         </PaneHeader>

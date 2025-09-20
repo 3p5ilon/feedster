@@ -16,10 +16,10 @@ export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
   title: {
-    default: 'Next Daily - Sharing things about Next.js',
-    template: `%s - Next Daily`,
+    default: 'Feedster - All your feeds in one place.',
+    template: `%s - Feedster`,
   },
-  description: '',
+  description: 'All your feeds in one place.',
 }
 
 export const viewport: Viewport = {

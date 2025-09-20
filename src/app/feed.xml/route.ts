@@ -13,8 +13,8 @@ export async function GET() {
   const resources = await getAllResources()
 
   const feed = new RSS({
-    title: 'Next Daily',
-    description: 'Sharing things about Next.js',
+    title: 'Feedster',
+    description: 'All your feeds in one place.',
     site_url: `${SITE_URL}`,
     feed_url: `${SITE_URL}/feed.xml`,
     language: 'en',
